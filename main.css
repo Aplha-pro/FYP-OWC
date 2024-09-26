@@ -1,0 +1,129 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 85%;
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background-color: #00334e;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 4px solid #00a9ce;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Video Section */
+.video-section {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.video-section h2 {
+    font-size: 2em;
+    color: #00334e;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.video-wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Report Section */
+.report-section {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    border-left: 5px solid #00a9ce;
+}
+
+.report-section h2 {
+    font-size: 2.2em;
+    color: #00334e;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.report h3 {
+    font-size: 1.6em;
+    color: #00557f;
+    margin-top: 30px;
+    border-bottom: 2px solid #00a9ce;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.report p {
+    margin-bottom: 20px;
+    font-size: 1.15em;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Image Styling */
+img {
+    width: 100%;
+    max-width: 600px; /* Adjusted max width to control image size */
+    height: auto;
+    margin: 20px auto; /* Centered the image using auto margins */
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to images */
+    object-fit: contain; /* Ensures the images keep aspect ratio */
+}
+
+/* Centering Images */
+.report img {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #00334e;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    border-top: 4px solid #00a9ce;
+}
